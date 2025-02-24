@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         {
             rb2D.AddTorque(TorqueAmount);
         }
-        if(Input.GetKey(KeyCode.RightArrow))
+        else if(Input.GetKey(KeyCode.RightArrow))
         {
             rb2D.AddTorque(-TorqueAmount);
         }
